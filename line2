@@ -1,0 +1,199 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: Hong Kong-01, server: fzx.6pzfwf.com, port: 56001, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-02, server: fzx.6pzfwf.com, port: 56002, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-03, server: fzx.6pzfwf.com, port: 56003, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-04, server: fzx.6pzfwf.com, port: 56004, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-05, server: fzx.6pzfwf.com, port: 56005, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-06, server: fzx.6pzfwf.com, port: 56006, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-07, server: fzx.6pzfwf.com, port: 56007, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-08, server: fzx.6pzfwf.com, port: 56008, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-09, server: fzx.6pzfwf.com, port: 56009, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-10, server: fzx.6pzfwf.com, port: 56010, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-11, server: fzx.6pzfwf.com, port: 56011, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-12, server: fzx.6pzfwf.com, port: 56012, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-13, server: fzx.6pzfwf.com, port: 56013, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-14, server: fzx.6pzfwf.com, port: 56014, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-15, server: fzx.6pzfwf.com, port: 56015, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-16, server: fzx.6pzfwf.com, port: 56016, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-17, server: fzx.6pzfwf.com, port: 56017, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-18, server: fzx.6pzfwf.com, port: 56018, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-19, server: fzx.6pzfwf.com, port: 56019, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Hong Kong-20, server: fzx.6pzfwf.com, port: 56020, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Taiwan-01, server: fzx.6pzfwf.com, port: 56021, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Taiwan-02, server: fzx.6pzfwf.com, port: 56022, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Taiwan-03, server: fzx.6pzfwf.com, port: 56023, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Taiwan-04, server: fzx.6pzfwf.com, port: 56024, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Taiwan-05, server: fzx.6pzfwf.com, port: 56025, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Taiwan-06, server: fzx.6pzfwf.com, port: 56026, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Taiwan-07, server: fzx.6pzfwf.com, port: 56027, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Taiwan-08, server: fzx.6pzfwf.com, port: 56028, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Taiwan-09, server: fzx.6pzfwf.com, port: 56029, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Taiwan-10, server: fzx.6pzfwf.com, port: 56030, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Japan-01, server: fzx.6pzfwf.com, port: 56031, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Japan-02, server: fzx.6pzfwf.com, port: 56032, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Japan-03, server: fzx.6pzfwf.com, port: 56033, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Japan-04, server: fzx.6pzfwf.com, port: 56034, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Japan-05, server: fzx.6pzfwf.com, port: 56035, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Japan-06, server: fzx.6pzfwf.com, port: 56036, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Japan-07, server: fzx.6pzfwf.com, port: 56037, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Japan-08, server: fzx.6pzfwf.com, port: 56038, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Japan-09, server: fzx.6pzfwf.com, port: 56039, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Japan-10, server: fzx.6pzfwf.com, port: 56040, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Singapore-01, server: fzx.6pzfwf.com, port: 56041, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Singapore-02, server: fzx.6pzfwf.com, port: 56042, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Singapore-03, server: fzx.6pzfwf.com, port: 56043, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Singapore-04, server: fzx.6pzfwf.com, port: 56044, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Singapore-05, server: fzx.6pzfwf.com, port: 56045, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Singapore-06, server: fzx.6pzfwf.com, port: 56046, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Singapore-07, server: fzx.6pzfwf.com, port: 56047, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Singapore-08, server: fzx.6pzfwf.com, port: 56048, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Singapore-09, server: fzx.6pzfwf.com, port: 56049, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Singapore-10, server: fzx.6pzfwf.com, port: 56050, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: USA-01, server: fzx.6pzfwf.com, port: 56051, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: USA-02, server: fzx.6pzfwf.com, port: 56052, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: USA-03, server: fzx.6pzfwf.com, port: 56053, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: USA-04, server: fzx.6pzfwf.com, port: 56054, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: USA-05, server: fzx.6pzfwf.com, port: 56055, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: USA-06, server: fzx.6pzfwf.com, port: 56056, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: USA-07, server: fzx.6pzfwf.com, port: 56057, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: USA-08, server: fzx.6pzfwf.com, port: 56058, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: USA-09, server: fzx.6pzfwf.com, port: 56059, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: USA-10, server: fzx.6pzfwf.com, port: 56060, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: UK-01, server: fzx.6pzfwf.com, port: 56061, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: UK-02, server: fzx.6pzfwf.com, port: 56062, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: UK-03, server: fzx.6pzfwf.com, port: 56063, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: UK-04, server: fzx.6pzfwf.com, port: 56064, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: UK-05, server: fzx.6pzfwf.com, port: 56065, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Malaysia-01, server: fzx.6pzfwf.com, port: 56066, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Malaysia-02, server: fzx.6pzfwf.com, port: 56067, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Malaysia-03, server: fzx.6pzfwf.com, port: 56068, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Malaysia-04, server: fzx.6pzfwf.com, port: 56069, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Malaysia-05, server: fzx.6pzfwf.com, port: 56070, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Turkey-01, server: fzx.6pzfwf.com, port: 56097, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Turkey-02, server: fzx.6pzfwf.com, port: 56098, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Argentina-01, server: fzx.6pzfwf.com, port: 56099, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+  - {name: Argentina-02, server: fzx.6pzfwf.com, port: 56100, type: ss, cipher: chacha20-ietf-poly1305, password: NfTku8, udp: true}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - Hong Kong-01
+      - Hong Kong-02
+      - Hong Kong-03
+      - Hong Kong-04
+      - Hong Kong-05
+      - Hong Kong-06
+      - Hong Kong-07
+      - Hong Kong-08
+      - Hong Kong-09
+      - Hong Kong-10
+      - Hong Kong-11
+      - Hong Kong-12
+      - Hong Kong-13
+      - Hong Kong-14
+      - Hong Kong-15
+      - Hong Kong-16
+      - Hong Kong-17
+      - Hong Kong-18
+      - Hong Kong-19
+      - Hong Kong-20
+      - Taiwan-01
+      - Taiwan-02
+      - Taiwan-03
+      - Taiwan-04
+      - Taiwan-05
+      - Taiwan-06
+      - Taiwan-07
+      - Taiwan-08
+      - Taiwan-09
+      - Taiwan-10
+      - Japan-01
+      - Japan-02
+      - Japan-03
+      - Japan-04
+      - Japan-05
+      - Japan-06
+      - Japan-07
+      - Japan-08
+      - Japan-09
+      - Japan-10
+      - Singapore-01
+      - Singapore-02
+      - Singapore-03
+      - Singapore-04
+      - Singapore-05
+      - Singapore-06
+      - Singapore-07
+      - Singapore-08
+      - Singapore-09
+      - Singapore-10
+      - USA-01
+      - USA-02
+      - USA-03
+      - USA-04
+      - USA-05
+      - USA-06
+      - USA-07
+      - USA-08
+      - USA-09
+      - USA-10
+      - UK-01
+      - UK-02
+      - UK-03
+      - UK-04
+      - UK-05
+      - Malaysia-01
+      - Malaysia-02
+      - Malaysia-03
+      - Malaysia-04
+      - Malaysia-05
+      - Turkey-01
+      - Turkey-02
+      - Argentina-01
+      - Argentina-02
+rules:
+ - DOMAIN-SUFFIX,1password.com,DIRECT
+ - DOMAIN-SUFFIX,vultr.com,DIRECT
+ - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+ - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+ - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+ - DOMAIN-SUFFIX,baidu.com,DIRECT
+ - DOMAIN-SUFFIX,baidu-int.com,DIRECT
+ - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+ - DOMAIN,mtalk.google.com,DIRECT
+ - DOMAIN,alt1-mtalk.google.com,DIRECT
+ - DOMAIN,alt2-mtalk.google.com,DIRECT
+ - DOMAIN,alt3-mtalk.google.com,DIRECT
+ - DOMAIN,alt4-mtalk.google.com,DIRECT
+ - DOMAIN,alt5-mtalk.google.com,DIRECT
+ - DOMAIN,alt6-mtalk.google.com,DIRECT
+ - DOMAIN,alt7-mtalk.google.com,DIRECT
+ - DOMAIN,alt8-mtalk.google.com,DIRECT
+ - DOMAIN,alt9-mtalk.google.com,DIRECT
+ - DOMAIN,captive.apple.com,DIRECT
+ - DOMAIN,time-ios.apple.com,DIRECT
+ - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+ - DOMAIN-SUFFIX,push.apple.com,DIRECT
+ - DOMAIN-KEYWORD,github,Proxies
+ - DOMAIN-SUFFIX,github.com,Proxies
+ - DOMAIN-SUFFIX,github.io,Proxies
+ - DOMAIN-SUFFIX,githubapp.com,Proxies
+ - DOMAIN-SUFFIX,githubassets.com,Proxies
+ - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+ - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+ - DOMAIN,ip.skk.moe,Proxies
+ - DOMAIN,ip.sb,Proxies
+ - DOMAIN-SUFFIX,googleapis.cn,Proxies
+ - DOMAIN-SUFFIX,maying.co,Proxies
+ - DOMAIN-SUFFIX,flowercloud.net,Proxies
+ - DOMAIN-SUFFIX,socloud.me,Proxies
+ - DOMAIN-SUFFIX,ytoo.asia,Proxies
+ - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+ - GEOIP,CN,DIRECT
+ - MATCH,Proxies
