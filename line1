@@ -1,0 +1,195 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: 中国-加拿大 IPLC E01, server: ca01.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-加拿大 IPLC E02, server: ca02.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-加拿大 IPLC E03, server: ca03.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-加拿大 IPLC E04, server: ca04.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-加拿大 IPLC E05, server: ca05.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E01, server: in01.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E02, server: in02.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E03, server: in03.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E04, server: in04.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E05, server: in05.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E06, server: in06.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E07, server: in07.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-印度 班加罗尔 एयरटेल IPLC E08, server: in08.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾 IPLC HiNet固接 E01 Netflix 动画疯, server: tw11.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯, server: tw12.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯, server: tw13.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯, server: tw14.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯, server: tw15.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯, server: tw16.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾 IPLC HiNet固接 E07 Netflix 动画疯, server: tw17.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯, server: tw18.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾 IPLC HiNet固接 E09 Netflix 动画疯, server: tw19.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾宜兰 IPLC E01, server: tw21.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾宜兰 IPLC E02, server: tw22.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾宜兰 IPLC E03, server: tw23.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾宜兰 IPLC E04, server: tw24.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾宜兰 IPLC E05, server: tw25.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾宜兰 IPLC E06, server: tw26.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾宜兰 IPLC E07, server: tw27.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾宜兰 IPLC E08, server: tw28.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-台湾宜兰 IPLC E09, server: tw29.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix, server: jp13.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix, server: jp14.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix, server: jp15.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix, server: jp16.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix, server: jp17.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix, server: jp18.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-法国 IPLC E01, server: fr01.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-法国 IPLC E02, server: fr02.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-法国 IPLC E03, server: fr03.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-法国 IPLC E04, server: fr04.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-法国 IPLC E05, server: fr05.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-澳大利亚 IPLC 悉尼 E01, server: au01.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-澳大利亚 IPLC 悉尼 E02, server: au02.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-澳大利亚 IPLC 悉尼 E03, server: au03.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-澳大利亚 IPLC 悉尼 E04, server: au04.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-澳大利亚 IPLC 悉尼 E05, server: au05.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-爱尔兰 IPLC E01, server: ir01.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-爱尔兰 IPLC E02, server: ir02.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-爱尔兰 IPLC E03, server: ir03.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-爱尔兰 IPLC E04, server: ir04.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中国-爱尔兰 IPLC E05, server: ir05.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E01 1000Mbps, server: hk01.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E02 1000Mbps, server: hk02.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E03 1000Mbps, server: hk03.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E04 1000Mbps, server: hk04.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E05 1000Mbps, server: hk05.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E06 1000Mbps, server: hk06.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E07 1000Mbps, server: hk07.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E08 1000Mbps, server: hk08.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E09 1000Mbps, server: hk09.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E10 1000Mbps, server: hk10.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E11 1000Mbps, server: hk11.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E12 1000Mbps, server: hk12.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E13 1000Mbps, server: hk13.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E14 1000Mbps, server: hk14.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E15 1000Mbps, server: hk15.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E16 1000Mbps, server: hk16.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E17 1000Mbps, server: hk17.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E18 1000Mbps, server: hk18.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E19 1000Mbps, server: hk19.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+  - {name: 中港专线 IPLC E20 1000Mbps, server: hk20.virtual-strike.com, port: 24393, type: ssr, cipher: rc4-md5, password: p55AR7, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - 中国-加拿大 IPLC E01
+      - 中国-加拿大 IPLC E02
+      - 中国-加拿大 IPLC E03
+      - 中国-加拿大 IPLC E04
+      - 中国-加拿大 IPLC E05
+      - 中国-印度 班加罗尔 एयरटेल IPLC E01
+      - 中国-印度 班加罗尔 एयरटेल IPLC E02
+      - 中国-印度 班加罗尔 एयरटेल IPLC E03
+      - 中国-印度 班加罗尔 एयरटेल IPLC E04
+      - 中国-印度 班加罗尔 एयरटेल IPLC E05
+      - 中国-印度 班加罗尔 एयरटेल IPLC E06
+      - 中国-印度 班加罗尔 एयरटेल IPLC E07
+      - 中国-印度 班加罗尔 एयरटेल IPLC E08
+      - 中国-台湾 IPLC HiNet固接 E01 Netflix 动画疯
+      - 中国-台湾 IPLC HiNet固接 E02 Netflix 动画疯
+      - 中国-台湾 IPLC HiNet固接 E03 Netflix 动画疯
+      - 中国-台湾 IPLC HiNet固接 E04 Netflix 动画疯
+      - 中国-台湾 IPLC HiNet固接 E05 Netflix 动画疯
+      - 中国-台湾 IPLC HiNet固接 E06 Netflix 动画疯
+      - 中国-台湾 IPLC HiNet固接 E07 Netflix 动画疯
+      - 中国-台湾 IPLC HiNet固接 E08 Netflix 动画疯
+      - 中国-台湾 IPLC HiNet固接 E09 Netflix 动画疯
+      - 中国-台湾宜兰 IPLC E01
+      - 中国-台湾宜兰 IPLC E02
+      - 中国-台湾宜兰 IPLC E03
+      - 中国-台湾宜兰 IPLC E04
+      - 中国-台湾宜兰 IPLC E05
+      - 中国-台湾宜兰 IPLC E06
+      - 中国-台湾宜兰 IPLC E07
+      - 中国-台湾宜兰 IPLC E08
+      - 中国-台湾宜兰 IPLC E09
+      - 中国-日本 沪日IPLC传输 Equinix-TY8 E01 Netflix
+      - 中国-日本 沪日IPLC传输 Equinix-TY8 E02 Netflix
+      - 中国-日本 沪日IPLC传输 Equinix-TY8 E03 Netflix
+      - 中国-日本 沪日IPLC传输 Equinix-TY8 E04 Netflix
+      - 中国-日本 沪日IPLC传输 Equinix-TY8 E05 Netflix
+      - 中国-日本 沪日IPLC传输 Equinix-TY8 E06 Netflix
+      - 中国-法国 IPLC E01
+      - 中国-法国 IPLC E02
+      - 中国-法国 IPLC E03
+      - 中国-法国 IPLC E04
+      - 中国-法国 IPLC E05
+      - 中国-澳大利亚 IPLC 悉尼 E01
+      - 中国-澳大利亚 IPLC 悉尼 E02
+      - 中国-澳大利亚 IPLC 悉尼 E03
+      - 中国-澳大利亚 IPLC 悉尼 E04
+      - 中国-澳大利亚 IPLC 悉尼 E05
+      - 中国-爱尔兰 IPLC E01
+      - 中国-爱尔兰 IPLC E02
+      - 中国-爱尔兰 IPLC E03
+      - 中国-爱尔兰 IPLC E04
+      - 中国-爱尔兰 IPLC E05
+      - 中港专线 IPLC E01 1000Mbps
+      - 中港专线 IPLC E02 1000Mbps
+      - 中港专线 IPLC E03 1000Mbps
+      - 中港专线 IPLC E04 1000Mbps
+      - 中港专线 IPLC E05 1000Mbps
+      - 中港专线 IPLC E06 1000Mbps
+      - 中港专线 IPLC E07 1000Mbps
+      - 中港专线 IPLC E08 1000Mbps
+      - 中港专线 IPLC E09 1000Mbps
+      - 中港专线 IPLC E10 1000Mbps
+      - 中港专线 IPLC E11 1000Mbps
+      - 中港专线 IPLC E12 1000Mbps
+      - 中港专线 IPLC E13 1000Mbps
+      - 中港专线 IPLC E14 1000Mbps
+      - 中港专线 IPLC E15 1000Mbps
+      - 中港专线 IPLC E16 1000Mbps
+      - 中港专线 IPLC E17 1000Mbps
+      - 中港专线 IPLC E18 1000Mbps
+      - 中港专线 IPLC E19 1000Mbps
+      - 中港专线 IPLC E20 1000Mbps
+rules:
+ - DOMAIN-SUFFIX,1password.com,DIRECT
+ - DOMAIN-SUFFIX,vultr.com,DIRECT
+ - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+ - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+ - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+ - DOMAIN-SUFFIX,baidu.com,DIRECT
+ - DOMAIN-SUFFIX,baidu-int.com,DIRECT
+ - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+ - DOMAIN,mtalk.google.com,DIRECT
+ - DOMAIN,alt1-mtalk.google.com,DIRECT
+ - DOMAIN,alt2-mtalk.google.com,DIRECT
+ - DOMAIN,alt3-mtalk.google.com,DIRECT
+ - DOMAIN,alt4-mtalk.google.com,DIRECT
+ - DOMAIN,alt5-mtalk.google.com,DIRECT
+ - DOMAIN,alt6-mtalk.google.com,DIRECT
+ - DOMAIN,alt7-mtalk.google.com,DIRECT
+ - DOMAIN,alt8-mtalk.google.com,DIRECT
+ - DOMAIN,alt9-mtalk.google.com,DIRECT
+ - DOMAIN,captive.apple.com,DIRECT
+ - DOMAIN,time-ios.apple.com,DIRECT
+ - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+ - DOMAIN-SUFFIX,push.apple.com,DIRECT
+ - DOMAIN-KEYWORD,github,Proxies
+ - DOMAIN-SUFFIX,github.com,Proxies
+ - DOMAIN-SUFFIX,github.io,Proxies
+ - DOMAIN-SUFFIX,githubapp.com,Proxies
+ - DOMAIN-SUFFIX,githubassets.com,Proxies
+ - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+ - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+ - DOMAIN,ip.skk.moe,Proxies
+ - DOMAIN,ip.sb,Proxies
+ - DOMAIN-SUFFIX,googleapis.cn,Proxies
+ - DOMAIN-SUFFIX,maying.co,Proxies
+ - DOMAIN-SUFFIX,flowercloud.net,Proxies
+ - DOMAIN-SUFFIX,socloud.me,Proxies
+ - DOMAIN-SUFFIX,ytoo.asia,Proxies
+ - DOMAIN-SUFFIX,ytoo.co.uk,Proxies
+ - GEOIP,CN,DIRECT
+ - MATCH,Proxies
